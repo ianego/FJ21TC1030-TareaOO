@@ -1,3 +1,4 @@
+  
 ########################################################################
 ####################### Makefile Template ##############################
 ########################################################################
@@ -10,8 +11,8 @@ LDFLAGS =
 # Makefile settings - Can be customized.
 APPNAME = myapp
 EXT = .cpp
-SRCDIR = ./
-OBJDIR = ./
+SRCDIR = .
+OBJDIR = .
 
 ############## Do not change anything from here downwards! #############
 SRC = $(wildcard $(SRCDIR)/*$(EXT))
